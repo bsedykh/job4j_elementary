@@ -39,12 +39,12 @@ class PointTest {
     }
 
     @Test
-    void when11to22then2() {
-        double expected = 1.41;
+    void when12to46then5() {
+        double expected = 5;
         int x1 = 1;
-        int y1 = 1;
-        int x2 = 2;
-        int y2 = 2;
+        int y1 = 2;
+        int x2 = 4;
+        int y2 = 6;
         double out = Point.distance(x1, y1, x2, y2);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
