@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class DivideBySixTest {
-
     @Test
     void whenNumberDivideBy6() {
         int in = 24;

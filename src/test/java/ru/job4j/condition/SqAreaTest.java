@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 class SqAreaTest {
-
     @Test
     void whenP6K2Square2() {
         int expected = 2;

@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 class PointTest {
-
     @Test
     void when00to00then0() {
         double expected = 0;

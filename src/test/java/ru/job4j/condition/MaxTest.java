@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MaxTest {
-
     @Test
     void whenMax2To1Then2() {
         int left = 2;

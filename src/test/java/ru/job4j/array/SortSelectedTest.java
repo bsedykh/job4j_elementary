@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SortSelectedTest {
-
     @Test
     public void whenSortThreeElements() {
         int[] data = new int[] {5, 3, 4};
